@@ -1,9 +1,13 @@
 <br>
 <a href="https://www.ultralytics.com/" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
-运行代码与Ultralytics相统一，其中runs中的权重为论文中改进模型的训练权重，hzb_tz.yaml文件为数据集路径
+代码与Ultralytics相统一，其中runs中的权重为论文中改进模型的训练权重，hzb_tz.yaml文件为数据集路径
+
 训练代码：yolo detect train data=“数据集路径” model=“模型权重路径”
 验证代码：yolo detect val data=“数据集路径” model=“模型权重路径”
+预测代码：yolo predict model=“模型权重路径” source=图片路径'
+导出模型：yolo export model=“模型权重路径” format=onnx 
+
 
 
 # 📚 Ultralytics Docs
